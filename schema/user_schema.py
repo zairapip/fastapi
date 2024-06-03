@@ -17,3 +17,6 @@ class UserSchemaG (BaseModel):
     password_hash: str
     username: str
     telephone: str
+
+class UserSchemaE(BaseModel):
+    error: str
